@@ -1,0 +1,60 @@
+.layout-container{
+    display: flex;
+    height: calc(100vh - 80px);
+    background-color: #09e2b3;
+}
+.calendar-container{
+    flex:8;
+    padding: 0 .5em;
+}
+.MMYYYY-container{
+    display: flex;
+    justify-content: space-between;
+}
+.month{
+    font-size: 2.5em;
+}
+.year{
+    font-size: 2.5em;
+}
+.days{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    place-items: center;
+    column-gap: .5em;
+}
+.days div{
+    background: #09ffbe;
+    font-size: 1.5em;
+    padding: .2em 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: .3em;
+}
+.dates{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(5,1fr);
+    column-gap: .5em;
+    row-gap: .5em;
+}
+.dates-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #09ffac;
+    height: 150px;
+}
+.date{
+    margin-bottom: .3em;
+    border-bottom: 2px solid;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+}
+.notes-container{
+    flex:4.9;
+    height: 100%;
+}

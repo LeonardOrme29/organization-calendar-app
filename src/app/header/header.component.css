@@ -1,0 +1,28 @@
+.header-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #dadada;
+    height: 80px;
+}
+.toggleBar{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: #000;
+    left: 10px;
+}
+.tittle{
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.autor{
+    position: absolute;
+    right: 0;
+    top:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    opacity: 0.5;
+}
