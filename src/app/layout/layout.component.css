@@ -1,6 +1,7 @@
 .layout-container{
     display: flex;
     height: calc(100vh - 80px);
+    min-height: 900px;
     background-color: #09e2b3;
 }
 .calendar-container{

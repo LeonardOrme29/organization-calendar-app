@@ -6,13 +6,7 @@
     background-color: #dadada;
     height: 80px;
 }
-.toggleBar{
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    background: #000;
-    left: 10px;
-}
+
 .tittle{
     font-size: 3em;
     font-family: 'Times New Roman', Times, serif;
@@ -25,4 +19,38 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     opacity: 0.5;
+}
+.active{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 10px;
+}
+.close{
+    display: none;
+}
+.sideBar{
+    top:80px;
+    height: calc(100vh - 80px);
+    min-height: 900px;
+    position: absolute;
+    left: -250px;
+    width: 250px;
+    background-color: #333;
+    transition: left 0.3s ease;
+}
+.sideBar.show{
+    left: 0;
+}
+@media only screen and (max-width:700px){
+    .tittle{
+        font-size:1.6em;
+    }
+    .active{
+        height: 30px;
+        width: 30px;
+    }
+    .show{
+        width: 200px;
+    }
 }

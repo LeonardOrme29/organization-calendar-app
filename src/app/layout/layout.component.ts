@@ -75,4 +75,5 @@ export class LayoutComponent {
         return {}; // Si no se cumple la condición, se retorna un objeto vacío
       }
   }
+  
 }

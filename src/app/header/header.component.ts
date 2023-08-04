@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
+  toggleBarHamburger='active';
+  toggleBarClose='close';
+  sideBar=''
+  toggleAction(){
+    if (this.toggleBarHamburger === 'active' && this.toggleBarClose==='close') {
+      this.toggleBarHamburger = 'close';
+      this.toggleBarClose='active';
+      this.sideBar='show'
+    } else {
+      this.toggleBarHamburger = 'active';
+      this.toggleBarClose='close';
+      this.sideBar=''
+    }
+  }
 }
