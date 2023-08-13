@@ -1,0 +1,8 @@
+<div class="dates-container day1">
+    <div class="date">{{date}}</div>
+    <div class="activities" *ngIf="booleanTask">
+        <ng-container *ngFor="let task of tasks">
+            <div class="task">{{task}}</div>
+        </ng-container>
+    </div>
+</div>

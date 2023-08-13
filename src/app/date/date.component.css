@@ -1,0 +1,15 @@
+.dates-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #09ffac;
+    height: 150px;
+}
+.date{
+    margin-bottom: .3em;
+    border-bottom: 2px solid;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+}

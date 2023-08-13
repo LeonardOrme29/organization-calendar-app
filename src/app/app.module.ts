@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { LayoutComponent } from './layout/layout.component';
 import { NotesComponent } from './notes/notes.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
+import { DateComponent } from './date/date.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { SideBarComponent } from './side-bar/side-bar.component';
     HeaderComponent,
     LayoutComponent,
     NotesComponent,
-    SideBarComponent
+    SideBarComponent,
+    DateComponent
   ],
   imports: [
     BrowserModule

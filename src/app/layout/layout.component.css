@@ -3,9 +3,11 @@
     height: calc(100vh - 80px);
     min-height: 900px;
     background-color: #09e2b3;
+    flex-wrap: wrap;
 }
 .calendar-container{
     flex:8;
+    min-width: 760px;
     padding: 0 .5em;
 }
 .MMYYYY-container{
@@ -57,5 +59,4 @@
 }
 .notes-container{
     flex:4.9;
-    height: 100%;
 }

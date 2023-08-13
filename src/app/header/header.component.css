@@ -3,7 +3,7 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    background-color: #dadada;
+    background-color: #07bc95;
     height: 80px;
 }
 
@@ -36,7 +36,7 @@
     position: absolute;
     left: -250px;
     width: 250px;
-    background-color: #333;
+    background-color: #07bc95;
     transition: left 0.3s ease;
 }
 .sideBar.show{
